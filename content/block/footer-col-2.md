@@ -1,3 +1,5 @@
-#### Footer col 2
+#### CSS
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+[CSS Snapshot 2017](https://www.w3.org/TR/CSS/r)
+
+[Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)

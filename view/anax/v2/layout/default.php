@@ -24,6 +24,7 @@ $title = ($title ?? "No title") . ($baseTitle ?? " | No base title defined");
 
 <?php if (isset($stylesheets)) : ?>
     <?php foreach ($stylesheets as $stylesheet) : ?>
+        <link rel="stylesheet" type="text/css" href="normalize.min.css" />
         <link rel="stylesheet" type="text/css" href="<?= asset($stylesheet) ?>">
     <?php endforeach; ?>
 <?php endif; ?>
