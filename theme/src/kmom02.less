@@ -1,0 +1,69 @@
+/*!
+ * Stylesheet for design kmom02.
+ *
+ * This stylesheet is for the design course and kmom02 where we use LESS.
+ */
+
+
+
+@mainBgColor: #fff;
+@mainTextColor: #333;
+@secTextColor: #fff;
+@mainFontFamily: 'Dosis';
+@accentColor:  #ff7400;
+@secColor: #000;
+
+/**
+* Font
+*/
+@import url('https://fonts.googleapis.com/css?family=Dosis:400,500,600,700');
+
+/**
+* Normalize and reset the style.
+*/
+@import "normalize.css/normalize.less";
+
+ /**
+ * Font Awesome.
+ */
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+/**
+ * A responsive menu.
+ */
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+@import "@desinax/responsive-menu/less/media-queries.less";
+
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+//@import "module/kmom02.less";
+
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@import "base/02base.less";
+
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+@import "layout/02layout.less";
+@import "layout/regions.less";     // To add style for ?regions
+
+
+/**
+ * Layout style for general designs of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+ @import "module/navbar02.less";
+ @import "module/header02.less";
+ @import "module/main02.less";
+ @import "module/footer02.less";
+
+@import "layout/responsive.less";
+/**
+ * My own settings, not currently in their own module.
+ */

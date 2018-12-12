@@ -1,0 +1,80 @@
+/**
+ * Layout for responsive style through media queries.
+ */
+
+@media screen and (max-width: 960px) {
+    .inner-wrap-main {
+        width: 95%;
+    }
+
+    .region-header-col-2 {
+        display: none;
+    }
+
+    .region-header-col-3 {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 740px) {
+    .outer-wrap-breadcrumb {
+        display: none;
+    }
+
+    .region-sidebar-left {
+        float: none;
+        clear: both;
+        width: 100%;
+    }
+
+    .region-main.has-sidebar-left {
+        float: none;
+        clear: both;
+        width: 100%;
+    }
+
+    .region-sidebar-right {
+        float: none;
+        clear: both;
+        width: 100%;
+    }
+
+    .region-main.has-sidebar-right {
+        float: none;
+        clear: both;
+        width: 100%;
+    }
+
+    article {
+        padding: 0;
+    }
+
+    figure {
+        float: none;
+        display: none;
+    }
+
+    figure a {
+        float: none;
+        display: block;
+    }
+
+    .byLineTextBox {
+        float: none;
+        width: 100%;
+    }
+
+    .footer-column-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .footer-column {
+        width: 75%;
+        text-align: center;
+    }
+
+}
